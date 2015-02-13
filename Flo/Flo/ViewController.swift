@@ -9,7 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var counterView: CounterView!
+    @IBOutlet weak var counterLabel: UILabel!
+    
+    @IBAction func btnPushButton(sender: PushButtonView) {
+        if sender.isAddButton {
+            counterView.counter++
+        } else {
+            
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

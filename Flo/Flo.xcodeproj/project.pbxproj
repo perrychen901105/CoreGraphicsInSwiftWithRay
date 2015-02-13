@@ -14,6 +14,7 @@
 		C2A53E3F1A8C9D4500A1A0BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A53E3D1A8C9D4500A1A0BC /* LaunchScreen.xib */; };
 		C2A53E4B1A8C9D4500A1A0BC /* FloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A53E4A1A8C9D4500A1A0BC /* FloTests.swift */; };
 		C2A53E551A8C9D9500A1A0BC /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A53E541A8C9D9500A1A0BC /* PushButtonView.swift */; };
+		C2AA82061A8DE4A3009C72F5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AA82051A8DE4A3009C72F5 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C2A53E491A8C9D4500A1A0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2A53E4A1A8C9D4500A1A0BC /* FloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloTests.swift; sourceTree = "<group>"; };
 		C2A53E541A8C9D9500A1A0BC /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		C2AA82051A8DE4A3009C72F5 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				C2A53E341A8C9D4500A1A0BC /* AppDelegate.swift */,
 				C2A53E361A8C9D4500A1A0BC /* ViewController.swift */,
 				C2A53E541A8C9D9500A1A0BC /* PushButtonView.swift */,
+				C2AA82051A8DE4A3009C72F5 /* CounterView.swift */,
 				C2A53E381A8C9D4500A1A0BC /* Main.storyboard */,
 				C2A53E3B1A8C9D4500A1A0BC /* Images.xcassets */,
 				C2A53E3D1A8C9D4500A1A0BC /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				C2A53E371A8C9D4500A1A0BC /* ViewController.swift in Sources */,
 				C2A53E551A8C9D9500A1A0BC /* PushButtonView.swift in Sources */,
 				C2A53E351A8C9D4500A1A0BC /* AppDelegate.swift in Sources */,
+				C2AA82061A8DE4A3009C72F5 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				C2A53E501A8C9D4500A1A0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2A53E511A8C9D4500A1A0BC /* Build configuration list for PBXNativeTarget "FloTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				C2A53E531A8C9D4500A1A0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
