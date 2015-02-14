@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C25BE9671A8F19CA00E1F7BF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BE9661A8F19CA00E1F7BF /* GraphView.swift */; };
 		C2A53E351A8C9D4500A1A0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A53E341A8C9D4500A1A0BC /* AppDelegate.swift */; };
 		C2A53E371A8C9D4500A1A0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A53E361A8C9D4500A1A0BC /* ViewController.swift */; };
 		C2A53E3A1A8C9D4500A1A0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A53E381A8C9D4500A1A0BC /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C25BE9661A8F19CA00E1F7BF /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		C2A53E2F1A8C9D4500A1A0BC /* Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A53E331A8C9D4500A1A0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2A53E341A8C9D4500A1A0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				C2A53E361A8C9D4500A1A0BC /* ViewController.swift */,
 				C2A53E541A8C9D9500A1A0BC /* PushButtonView.swift */,
 				C2AA82051A8DE4A3009C72F5 /* CounterView.swift */,
+				C25BE9661A8F19CA00E1F7BF /* GraphView.swift */,
 				C2A53E381A8C9D4500A1A0BC /* Main.storyboard */,
 				C2A53E3B1A8C9D4500A1A0BC /* Images.xcassets */,
 				C2A53E3D1A8C9D4500A1A0BC /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25BE9671A8F19CA00E1F7BF /* GraphView.swift in Sources */,
 				C2A53E371A8C9D4500A1A0BC /* ViewController.swift in Sources */,
 				C2A53E551A8C9D9500A1A0BC /* PushButtonView.swift in Sources */,
 				C2A53E351A8C9D4500A1A0BC /* AppDelegate.swift in Sources */,
