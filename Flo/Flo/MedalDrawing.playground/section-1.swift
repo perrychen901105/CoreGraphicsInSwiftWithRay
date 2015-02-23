@@ -17,7 +17,7 @@ let shadowOffset = CGSizeMake(2.0, 2.0)
 let shadowBlurRadius: CGFloat = 5
 
 CGContextSetShadowWithColor(context, shadowOffset, shadowBlurRadius, shadow.CGColor)
-
+CGContextBeginTransparencyLayer(context, nil)
 
 // Lower Ribbon
 var lowerRibbonPath = UIBezierPath()
@@ -74,6 +74,8 @@ let font = UIFont(name: "Academy Engraved LET", size: 60)
 let textStyle = NSMutableParagraphStyle.defaultParagraphStyle()
 let numberOneAttributes = [NSFontAttributeName: font!, NSForegroundColorAttributeName: darkGoldColor]
 numberOne.drawInRect(numberOneRect, withAttributes:numberOneAttributes)
+
+CGContextEndTransparencyLayer(context)
 
 // always at the end of playground
 let image = UIGraphicsGetImageFromCurrentImageContext()

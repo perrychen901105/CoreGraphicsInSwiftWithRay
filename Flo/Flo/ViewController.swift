@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var counterLabel: UILabel!
     @IBOutlet weak var graphView: GraphView!
-    
+    @IBOutlet weak var medalView: MedalView!
     //Label outlets
     @IBOutlet weak var averageWaterDrunk: UILabel!
     @IBOutlet weak var maxLabel: UILabel!
@@ -53,6 +53,15 @@ class ViewController: UIViewController {
         counterLabel.text = String(counterView.counter)
         if isGraphViewShowing {
             counterViewTap(nil)
+        }
+        checkTotal()
+    }
+    
+    func checkTotal() {
+        if counterView.counter >= 8 {
+            medalView.showMedal(true)
+        } else {
+            medalView.showMedal(false)
         }
     }
     
@@ -102,6 +111,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         counterLabel.text = String(counterView.counter)
+        checkTotal()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

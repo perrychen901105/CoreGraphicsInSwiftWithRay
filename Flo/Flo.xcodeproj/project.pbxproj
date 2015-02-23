@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C9A031D1A98334E0090435D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A031C1A98334E0090435D /* BackgroundView.swift */; };
+		2CE3AD921A9B5D8A00E8BAE0 /* MedalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3AD911A9B5D8A00E8BAE0 /* MedalView.swift */; };
 		C25BE9671A8F19CA00E1F7BF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25BE9661A8F19CA00E1F7BF /* GraphView.swift */; };
 		C2A53E351A8C9D4500A1A0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A53E341A8C9D4500A1A0BC /* AppDelegate.swift */; };
 		C2A53E371A8C9D4500A1A0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A53E361A8C9D4500A1A0BC /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		2C9A031C1A98334E0090435D /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		2CB174DE1A9A0F3B00028966 /* MedalDrawing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MedalDrawing.playground; sourceTree = "<group>"; };
+		2CE3AD911A9B5D8A00E8BAE0 /* MedalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedalView.swift; sourceTree = "<group>"; };
 		C25BE9661A8F19CA00E1F7BF /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		C2A53E2F1A8C9D4500A1A0BC /* Flo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A53E331A8C9D4500A1A0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				C2AA82051A8DE4A3009C72F5 /* CounterView.swift */,
 				2C9A031C1A98334E0090435D /* BackgroundView.swift */,
 				C25BE9661A8F19CA00E1F7BF /* GraphView.swift */,
+				2CE3AD911A9B5D8A00E8BAE0 /* MedalView.swift */,
 				2CB174DE1A9A0F3B00028966 /* MedalDrawing.playground */,
 				C2A53E381A8C9D4500A1A0BC /* Main.storyboard */,
 				C2A53E3B1A8C9D4500A1A0BC /* Images.xcassets */,
@@ -228,6 +231,7 @@
 			files = (
 				2C9A031D1A98334E0090435D /* BackgroundView.swift in Sources */,
 				C25BE9671A8F19CA00E1F7BF /* GraphView.swift in Sources */,
+				2CE3AD921A9B5D8A00E8BAE0 /* MedalView.swift in Sources */,
 				C2A53E371A8C9D4500A1A0BC /* ViewController.swift in Sources */,
 				C2A53E551A8C9D9500A1A0BC /* PushButtonView.swift in Sources */,
 				C2A53E351A8C9D4500A1A0BC /* AppDelegate.swift in Sources */,
